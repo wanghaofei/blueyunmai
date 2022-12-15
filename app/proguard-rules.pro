@@ -19,3 +19,14 @@
 # If you keep the line number information, uncomment this to
 # hide the original source file name.
 #-renamesourcefileattribute SourceFile
+
+-keep public class * extends android.widget.Gallery{
+
+    public *;
+
+}
+-keep class org.greenrobot.** {*;}
+-keep class android.support.**{*;}
+-dontwarn android.support.**
+-keepattributes Signature
+-keepattributes *Annotation*
