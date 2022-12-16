@@ -828,3 +828,8 @@ public void *(***);
 
 -keep class org.libpag.** {*;}
 -keep class androidx.exifinterface.** {*;}
+
+-keep class com.yucheng.ycbtsdk.Bean.** {*;}
+-keep class com.yucheng.ycbtsdk.Response.** {*;}
+-keep public class * extends com.yucheng.ycbtsdk.Constants
+
